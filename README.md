@@ -9,5 +9,5 @@
 <p align="center">So go ahead, take a look around, and if you have any questions or just want to say hi, don't hesitate to get in touch! 😃</p>
 
 <p align="center">
-  <a href="linkinprogress">Live Demo</a>
+  <a href="https://vincenzo-portfolio.netlify.app/">Live Demo</a>
 </p>
