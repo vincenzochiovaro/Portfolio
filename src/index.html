@@ -1,431 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" class="sr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-
-    <title>Vincenzo Chiovaro - Software Engineer </title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+    <title>Vincenzo Chiovaro - New App</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        max-width: 400px;
+        width: 90%;
+      }
+      h1 {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+      }
+      a.button {
+        display: inline-block;
+        padding: 12px 25px;
+        background: #ff9800;
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+        border-radius: 30px;
+        transition: background 0.3s ease;
+      }
+      a.button:hover {
+        background: #e68900;
+      }
+    </style>
   </head>
-
   <body>
-    <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi there! I'm <span class="text-color-main">Vincenzo Chiovaro</span>,
-          <br />
-          Software Engineer
-        </h1>
-        
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Learn More </a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
-
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title load-hidden">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/pic.png"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                I'm a Software Engineer with a specialization in backend development and cloud solutions.
-                <br/>
-                <br/>
-                My journey began with developing APIs and dynamic web-app in the JavaScript ecosystem
-                allowing me to develop a comprehensive 360-degree vision of the software development lifecycle.
-                <br />
-                <br />
-              </p>
-              <p class="about-wrapper__info-text">
-                <strong>Tech Stack:</strong> .NET/C#, Azure, JavaScript, Node, React, MongoDB, PostgreSQL, Terraform
-                
-              </p>
-              
-              
-              
-              
-              <!-- Todo - Restore resume once updated -->
-              <!-- <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/Vincenzo Chiovaro CV.pdf"
-                >
-                  View Resume
-                </a>
-              </span> -->
-              <!-- Todo - Restore resume once updated -->
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">SWAPZ ↔</h3>
-                <div>
-                  <p class="mb-4">
-                    I'm proud to have been part of the team that built Swapz, a
-                    <strong>mobile app </strong> that allowed users to swap
-                    items with others in their local area. What made this
-                    project particularly special was that we were given just
-                    <strong>two weeks</strong> to build it from
-                    <strong>scratch</strong>, as part of a
-                    <strong>hackathon-style</strong>
-                    challenge during my coding bootcamp. To make things even
-                    more interesting, we were required to use a tech stack that
-                    none of us had ever worked with before. It was a thrilling
-                    and nerve-wracking <strong>experience</strong>, but we dove
-                    in headfirst, learning as we went and pushing ourselves to
-                    create the best possible product. With React Native and Expo
-                    Go on the <strong>frontend</strong>, and Firebase for data
-                    storage and image hosting on the <strong>backend</strong>,
-                    we worked tirelessly to ensure that the app was reliable,
-                    user-friendly, and visually appealing. The end result was a
-                    project that we were all incredibly proud of. <br /><br />
-                    <strong>Tech Stack:</strong> React Native / Expo Go /
-                    Firebase
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://www.youtube.com/watch?v=9dD8mxC-31c&t=111s&ab_channel=VincenzoChiovaro"
-                >
-                  Live Presentation
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/vincenzochiovaro/swapz"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://www.youtube.com/watch?v=9dD8mxC-31c&t=111s&ab_channel=VincenzoChiovaro"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/swapzTeam.jpeg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Mealtime 🍽️</h3>
-                <div>
-                  <p class="mb-4">
-                    <strong>Back-End</strong> ~ Mealtime is a RESTful API that
-                    provides users with access to a database of recipes. The
-                    goal of this project is to
-                    <strong>simplify the response</strong> as much as possible
-                    to include only the necessary information, making it easier
-                    for <strong>beginners to navigate</strong> and practice
-                    with. It also includes features such as user
-                    <strong>authentication (JWT)</strong> and rate limiting to
-                    ensure the security and stability of the API. <br /><br />
-                    <strong>Tech Stack:</strong> Node / Express / PostgreSQL /
-                    Jest
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/vincenzochiovaro/Mealtime-backend"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/vincenzochiovaro/Mealtime-backend"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://github.com/vincenzochiovaro/Mealtime-backend"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/mealtime.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">NC Games 🎲</h3>
-                <div>
-                  <p class="mb-4">
-                    <strong>Back-End</strong> ~ NC Games is a RESTful API that
-                    enables <strong>CRUD operations </strong> for reviews,
-                    comments, and users. The project was developed during my
-                    bootcamp and utilizes a <strong>TDD approach</strong> , with
-                    Jest as the testing framework. The API provides various
-                    endpoints to view, create, update, and delete reviews and
-                    comments. <br /><br />
-                    <strong>Tech Stack:</strong> Node / Express / PostgreSQL /
-                    Jest
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/vincenzochiovaro/NCGames-BackEnd"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/vincenzochiovaro/NCGames-BackEnd"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://github.com/vincenzochiovaro/NCGames-BackEnd"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/ncgames.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">
-                  Genre Gaming Opinion Hub 🕹️
-                </h3>
-                <div>
-                  <p class="mb-4">
-                    <strong>Front-End</strong> ~ Genre Gaming Opinion Hub
-                    connects to <strong>my API NC Games</strong> that provides
-                    users with access to images of games with different
-                    categories. The <strong>user experience</strong> is elevated
-                    through the ability to click on a game card to reveal a
-                    review and its accompanying list of comments. Users can also
-                    leave or remove their comments, as well as like or dislike a
-                    review, which adds an interactive element to the website. In
-                    addition, the website is equipped with a
-                    <strong>loading spinner</strong> and
-                    <strong> error handling</strong> for server issues, ensuring
-                    that the user experience remains uninterrupted. <br /><br />
-                    <strong>Tech Stack:</strong> React Hooks / Css
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://genregamingopinionhub.netlify.app/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/vincenzochiovaro/Genere-Gaming-Opinion-Hub-frontEnd"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://genregamingopinionhub.netlify.app/"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/ggoh.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">Thank you for stopping by . . .</p>
-          <a 
-            rel="noreferrer" 
-            target="_blank" 
-            class="cta-btn cta-btn--resume" 
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=vincenzochiovaro194@gmail.com"
-            >Let's Chat</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/vincenzo-chiovaro-22258a176/"
-            target="_blank"
-          >
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/vincenzo-chiovaro-22258a176/"
-            target="_blank"
-          >
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a
-            rel="noreferrer"
-            href="https://github.com/vincenzochiovaro"
-            target="_blank"
-          >
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <p class="footer__text">
-          © 2023 - Template developed by Jacobo Martínez and customized by
-          Vincenzo Chiovaro
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-
-    <script defer type="module" src="index.js"></script>
+    <div class="card">
+      <h1>Hi there 👋</h1>
+      <p>Thanks for stopping by, please click below to see my new web app.</p>
+      <a
+        class="button"
+        href="https://vincenzochiovaro.github.io/vincenzo-hub/"
+        target="_blank"
+      >
+        Go to...
+      </a>
+    </div>
   </body>
 </html>
